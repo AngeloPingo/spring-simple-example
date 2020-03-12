@@ -1,0 +1,15 @@
+server:
+  port : 80
+  tomcat:
+    max-threads: 3
+logging:
+  level:
+    pt:
+      angelopingo:
+        examples: DEBUG
+
+app:
+  encoding: UTF-8
+  big-query:
+    dataset: prd-dataset-example
+    table: prd-table-example
